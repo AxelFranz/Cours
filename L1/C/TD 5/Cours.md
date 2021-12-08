@@ -84,7 +84,7 @@ Réaliser le calcul en binaire
 
 ```c
 float f1 = 0.31250;    ==> 0.0101 en base 2 donc en IEEE 0 01111101 0100 0000 0000 000 0000 0000
-float f2 = -124.40625; ==> 1111100.01101 en base 2
+float f2 = -124.40625; ==> 111100.01101 en base 2 donc en IEEE 1 10000101 1111 0001 1010 0000 0000 0000
 
 ```
 
