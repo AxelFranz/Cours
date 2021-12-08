@@ -49,3 +49,18 @@ def aire_sierpinski(n):
 #print(aire_sierpinski(3))
 
 #----------------------------------------------#
+
+def indice_lst(lst, a_trouver):
+    if a_trouver not in lst:
+        return -1
+    else:
+        if lst[0] != a_trouver:
+            return 1 + indice_lst(lst[1:], a_trouver)
+        else:
+            return 0
+#print(indice_lst([1,2,3,4],5))
+
+#----------------------------------------------#
+
+
+    
