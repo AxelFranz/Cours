@@ -29,7 +29,6 @@ def dessine_cases_accessibles(lgn,col,lcases):
     couleur = 0
     for x in range(0,8):
         for y in range(0,8):
-            print(couleur)
             couleur = couleur % 2
             if couleur == 1:
                 dessine_case(x,y,"black")
