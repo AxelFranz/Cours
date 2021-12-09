@@ -43,4 +43,14 @@ def afficheParcoursNpas_PI(cell,nb_pas):
         return
     else:
         afficheParcoursNpas_PI(voisines_PI_alea(cell), nb_pas-1)
-print(afficheParcoursNpas_PI(cell,3))
+#print(afficheParcoursNpas_PI(cell,3))
+
+def estSurPlateau(cell,nblignes,nbcolonnes):
+    if cell[0] < 0 or cell[0] >= nblignes or cell[1] < 0 or cell[1] >= nbcolonnes:
+        return False
+    else:
+        return True
+#print(estSurPlateau(cell,2,3))
+
+def voisines_PF(cell,nblignes,nbcolonnes):
+    lstf = []
