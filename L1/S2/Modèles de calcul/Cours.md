@@ -43,6 +43,28 @@ On parle de lambda-calcul pur pour une expression sans constante, sinon il est i
 
 L'application est prioritaire par rapport à l'abstraction
 
+#### Interprétation
+
+* Constante : Nombre, opération (préfixée)
+
+* Variable : Variable en maths
+
+* Abstraction λx.M : fonction anonyme qui à tout x associe M
+
+* Application M N : Image de N par M ==> M(N) en programmation
+
+  | Maths         | HASKELL       | OCaml      | Lambda-calcul |
+  | ------------- | ------------- | ---------- | ------------- |
+  | x -> x        | \x -> x       | fun x -> x | λx.x          |
+  | (x -> 2x) (1) | (\x -> 2x)(1) |            | (λx. * 2 x) 1 |
+
+#### Curryfication
+
+Opération qui consiste à transformer un fonction qui prend un N-uplet en une fonction qui prend N arguments un à un dans cet ordre.
+
+
+​	
+
   
 
 
