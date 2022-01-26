@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-int main()
+#include <stdbool.h>
+int main(void)
 {
-	printf("Coucou comment ca va ?\n");
-	
 	return 0;
 }
+	
