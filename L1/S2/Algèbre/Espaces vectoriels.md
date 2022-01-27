@@ -22,4 +22,14 @@ $$
 \\7. \space \lambda*_v(u+_vv)=\lambda u+\lambda v
 \\8. \space \text{Distributivité}
 $$
-Propriété et preuves dans le cahier.
+Propriété et preuves dans le bouquin Exo7
+
+* K est un K espace vectoriel => R est un R-espace vectoriel, C est un C-espace vectoriel
+
+
+
+**Pour prouver un espace vectoriel, il suffit de montrer les 8 axiomes**
+
+
+
+### Est-ce que V*W a naturellement une structure de K-espace vectoriel si V et W sont des K-espaces vectoriels
