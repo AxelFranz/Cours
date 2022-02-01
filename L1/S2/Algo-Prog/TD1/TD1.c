@@ -26,7 +26,7 @@ void l_suite()
 
 }
 
-float solveur_premier(float a,float b float,c)
+float solveur_premier(float a,float b, float c)
 {
 	return (c-b)/a;
 }
