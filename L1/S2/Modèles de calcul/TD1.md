@@ -30,3 +30,38 @@
 * Pour le h
   * On peu
   * On peut rajouter beaucoup de parenthèses
+
+
+
+## Exercice 2
+
+*  C'est la fonction x -> 2x
+* C'est la fonction f-> f(x)
+* C'est la fonction x -> x(3
+* C'est la fonction (x,y) -> x + y
+
+* C'est la fonction (x,x2) -> 2 * x2
+* C'est la fonction x -> z -> z + x
+* C'est la fonction (x,y) -> z -> x(3) + z
+* C'est la fonction x -> x(x(1))
+* C'est la fonction (((f,a) -> f(a))(x))(a), ce qui équivaut à a(x) 
+
+
+
+## Exercice 3
+
+* On remplace juste le dernier x par g
+* Le y est lié donc on ne remplace rien
+
+* On remplace le premier f par g
+* On remplace le x
+* On remplace juste le premier x et le dernier
+
+* On remplace le x juste avant
+
+* On modifie les 2 premieres occurences de x
+
+## Exercice 4
+* Ca se réduit en 6
+* Ca s'écrit (+ 5)
+* Ca se réduit en 3

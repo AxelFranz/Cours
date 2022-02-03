@@ -1,0 +1,35 @@
+h2.empattement
+{
+	font-family: sans-serif;
+	color: blue;
+}
+
+.avecserif
+{
+	font-family: serif;
+	color: red;
+
+}
+
+p{
+	font-family: sans-serif;
+	color: #404040;
+}
+
+h1{
+	font-size: 400%;
+	text-align: left;
+	font-family: sans-serif;
+	color: purple;
+}
+
+.nav1{
+	color: red;
+	font-size: 10%;
+}
+
+footer{
+	font-size: 50%;
+	font-family: sans-serif;
+	text-align: center;
+}

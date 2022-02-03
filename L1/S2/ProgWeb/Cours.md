@@ -127,6 +127,37 @@ La classe est multiple
 
 ## Chapitre 2 : Utilisation du CSS et approfondissement de l'HTML
 
+### Insérer une page de style dans un fichier HTML
+
+```html
+<!-- Pour tout le document -->
+<link rel="stylesheet" href="src.css">
+
+<!-- Pour juste une partie -->
+<style> </style>
+
+```
+
+### Pour définir une classe ou un id 
+
+```css
+.classe
+{
+    /* Ici je définis une classe */
+}
+
+#id
+{
+	/* Ici je définis un id */    
+}
+
+
+```
+
+
+
+
+
 ## Chapitre 3 : Mise en place d'un site dynamique
 
 ## Chapitre 4 : Introduction au JS

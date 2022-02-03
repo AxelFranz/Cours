@@ -9,9 +9,7 @@ sortie =
 préconditions = 
 */
 
-
-
-
+int a_la_suite(int a,int b,int c);
 int a_la_suite(int a,int b,int c);
 
 void l_suite()
