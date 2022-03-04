@@ -17,10 +17,46 @@ void afficher(float tab[],int size)
 	printf("\n");
 }
 
+int comparer(int tab[],int tab2[],int size)
+{
+	int fin = 0;
+	for(int i = 0;i < size;i++)
+		if (tab[i] == tab2[i])
+			fin = 1;
+	return fin;
+}
+
+int decompte(int tab[],int size,int elem)
+{
+	int compteur = 0;
+	for(int i = 0;i < size;i++)
+		if (tab[i] == elem)
+				compteur++;
+	return compteur;
+	
+}
+
+int maximum(int tab[],int size)
+{
+	int max = tab[0];
+	for(int i = 0;i < size;i++)
+		if (tab[i] > max)
+			max = tab[i];
+	return max;
+}
+
+int indiceMaximum(int tab[],int size)
+{
+	int max = 0;
+	for(int i = 0;i < size;i++)
+		if (tab[i] > max)
+			max = i;
+	return max;
+}
+
+int copie(int tab[]);	
+
 int main(void)
 {
-	float tab[5];
-	remplir(tab,5);
-	afficher(tab,5);
 	return 0;
 }
