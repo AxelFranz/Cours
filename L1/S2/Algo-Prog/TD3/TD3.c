@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
 
 void remplir(float tab[],int size)
 {
@@ -54,7 +56,12 @@ int indiceMaximum(int tab[],int size)
 	return max;
 }
 
-int copie(int tab[]);	
+bool EstSousChaine(char* chaine,char* sousChaine)
+{
+	int lenChaine = strlen(chaine)
+	int lenSousChaine = strlen(chaine)
+	for(int i = 0;)
+}	
 
 int main(void)
 {
