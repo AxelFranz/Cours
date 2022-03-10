@@ -54,7 +54,7 @@ int indiceMaximum(int tab[],int size)
 	return max;
 }
 
-int copie(int tab[]);	
+ int copie(int tab[]);	
 
 int main(void)
 {

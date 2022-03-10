@@ -1,7 +1,5 @@
 # Lambda Calcul
 
-
-
 ## Introduction
 
 1930 => Créé par Alonzo Church basé sur la notion de fonction
@@ -18,8 +16,6 @@ Le lambda calcul est un formalisme pour exprimer des fonctions
 
 Les expressions du lamba-calcul notent des fonction anonymes et sont appelées lambda-termes (ou lambda expressions)
 
-
-
 ## Les Lambda-termes
 
 Un lambda-terme est soit
@@ -31,7 +27,7 @@ Un lambda-terme est soit
 
 On parle de lambda-calcul pur pour une expression sans constante, sinon il est impur
 
-#### Conventions 
+#### Conventions
 
 * (M) ≡ M
 
@@ -52,7 +48,7 @@ L'application est prioritaire par rapport à l'abstraction
 * Abstraction λx.M : fonction anonyme qui à tout x associe M
 
 * Application M N : Image de N par M ==> M(N) en programmation
-
+  
   | Maths         | HASKELL       | OCaml      | Lambda-calcul |
   | ------------- | ------------- | ---------- | ------------- |
   | x -> x        | \x -> x       | fun x -> x | λx.x          |
@@ -62,12 +58,4 @@ L'application est prioritaire par rapport à l'abstraction
 
 Opération qui consiste à transformer un fonction qui prend un N-uplet en une fonction qui prend N arguments un à un dans cet ordre.
 
-
-​	
-
-  
-
-
-
-
-
+​    

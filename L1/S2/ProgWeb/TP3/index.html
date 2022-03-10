@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>TP3</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="champ">
+		<label for="input">Ecrire  :</label>
+ 		<input type="text" id="input" name="form">
+ 	</div>
+ 	<div class="selection">
+ 		<label for="unite"> Choisissez l'unité finale </label>
+ 		<select name="unite" id="unite">
+    		<option value="">--Choisissez une unité--</option>
+  	  		<option value="pouce">Pouces</option>
+    		<option value="cm">Centimètres</option>
+	    	<option value="gramme">Grammes</option>
+    		<option value="lb">Livres</option>
+		</select>
+	</div>
+	<button id="start" onclick="conversion();"> Lancer la conversion ! </button>
+	<div id="resultat">
+		<p> Résultat = </p>
+		<p id="final"></p>
+	</div> 	
+</body>
+</html>

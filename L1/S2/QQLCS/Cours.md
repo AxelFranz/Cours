@@ -188,8 +188,6 @@ Théorie solide => Il a une faible théorie optique. Il n'y avait pas de théori
 
 Hérésie => sa lunette est aussi bien pour l'espionnage
 
-
-
 CEPENDANT : Les relativistes pensent que les résultats ne sont que le résultat du social.
 
 ##### Questions à préparer
@@ -199,8 +197,6 @@ Quels sont les points faibles de la méthodeexpérimentale selon le sociologue d
 Qu'est ce que la flexibilité interprétative selon Collins
 
 Selon Collins, quelq sont les facteurs qui permettent de clore une controverse scientifique
-
-
 
 # Les modes de raisonnement
 
