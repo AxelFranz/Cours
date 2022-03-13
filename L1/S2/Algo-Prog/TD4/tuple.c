@@ -7,8 +7,29 @@ typedef struct{
 }tuple;
 
 tuple tu_empty();
-void tu_print();
-tuple tu_ins(float x,tuple t,int i);
+{
+	
+	tuple nt;
+	nt.size=0;
+	return nt;
+}
+void tu_print(tuple t);
+{
+	for(int i = 0;i < t.size;i++)
+		print("%d\n",t.tab[i]);
+}
+
+
+
+tuple tu_del(tuple l,int i)
+{
+	for(;i<l.size-1;i++)
+	{
+		l.tab[i]=l.tab[i+1]
+	}
+	l.size--;
+	return l;
+}
 
 tuple tu_ins(float x,tuple t,int i)
 {

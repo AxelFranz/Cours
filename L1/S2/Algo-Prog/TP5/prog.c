@@ -7,11 +7,12 @@ int main()
 	initscr();
 	int x, y;
 	getmaxyx(stdscr, y, x);
-	for(;x>0;x--)
-	{
-		mvprintw(y,x,"a");
-	}
-	refresh();
+	x--;
+	mvprintw(y/2,x-1,"#");
+	for(;x != 0;x--)
+		mvprintw(y/2,x,"#");                                                      
+		napms(50);
+		refresh();
 	getch();
 	endwin();
 }
