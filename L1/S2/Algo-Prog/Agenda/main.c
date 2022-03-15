@@ -16,6 +16,18 @@ typedef struct
 	int size;
 }carnet;
 
+void print_carnet(carnet agenda)
+{
+	if(agenda.size == 0)
+		printf("Le carnet est vide");
+	printf("Le carnet a %d elements",agenda.size);
+	for(int i = 0;i < agenda.size;i++)
+	{
+		printf("%d : %s ",i+1,agenda.tab[i].nom);
+	}
+	printf("\n");
+}
+
 void inserer_elem(carnet* agenda,personne elem)
 {
 	personne temp;
@@ -26,6 +38,20 @@ void inserer_elem(carnet* agenda,personne elem)
 	}
 	agenda->tab[0] = elem;
 	agenda->size++;
+}
+
+void supprimer_elem(carnet* agenda)
+{
+	int a_delete;
+	print_carnet(*agenda);
+	printf("\nChoisissez le numéro de la personne a supprimer : ");
+	scanf("%d",&a_delete);
+	a_delete--;
+	for(int i = a_delete;i < agenda->size-1;i++)
+	{
+		agenda->tab[i]=agenda->tab[i+1];
+	}
+	agenda->size--;
 }
 
 void ajout_personne(carnet* agenda)
@@ -70,5 +96,8 @@ int main(void)
 	agenda.size= 0;
 	ajout_personne(&agenda);
 	print_personne(agenda);
+	supprimer_elem(&agenda);
+	print_carnet(agenda);
+
 	return 0;
 }
