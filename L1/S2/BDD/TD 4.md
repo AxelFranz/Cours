@@ -9,3 +9,7 @@
     Implicites : nom -> catégorie nb_chbr
 
                         nom,lib_div -> gratuit
+
+2.1 1) A,D => A  (reflexivité)
+
+           A => B et B => C donc A => C et donc AD => C (transitivité)
