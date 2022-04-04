@@ -47,6 +47,8 @@ Exemple
 CREATE TABLE buveur(
 nb	number(3) primary key,
 nom varchar2(20),
+
+ALTER TABLE <nomTable> ADD (nomCol type);
 );
 ```
 
