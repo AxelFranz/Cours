@@ -312,15 +312,11 @@ Conséquences de cette controverse : => Plus de précautions dans les expérimen
 
 Controverse Rayons N : 1 an
 
-
-
 **Comment se clôt une controverse ?**
 
 Rationaliste => Apport de preuves incontestables
 
 Relativiste => Cause sociale
-
-
 
 Controverses célèbres
 
@@ -329,8 +325,6 @@ Controverses célèbres
 => 19e Créationnisme / génération spontanée
 
 => 20e tectonique des plaques / mémoire de l'eau / fusion froide
-
-
 
 Génération spontanée : plusieurs siècles
 
@@ -344,8 +338,6 @@ Forum officiel : livres publiés, démonstrations publiques
 
 Forum officieux : Lettres +  tribunaux
 
-
-
 ## Questions :
 
 * Notiond e controverse scietnfiiques
@@ -353,7 +345,5 @@ Forum officieux : Lettres +  tribunaux
 * 3 controverses scientifiques célbres
 
 * Dans quels cadres se développement les controverses scientifiques
-
-
 
 # Controverse
