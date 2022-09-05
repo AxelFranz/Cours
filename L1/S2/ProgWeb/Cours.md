@@ -132,10 +132,27 @@ En général c'est à la fin du fichier que l'on inclus le fichier JS au cas où
 
 **Le JS est un langage orienté objet**
 
-
-
 ## Chapitre 5 : Interaction HTML / JS
 
-
-
 ## Chapitre 6 : Approfondissment JS
+
+### Créer une classe
+
+```js
+class Nom{
+    constructor(args){
+    ...
+    }
+    methode(){
+    ...
+    }
+}
+```
+
+## Chapitre 7 : JQuery
+
+```html
+<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+    $("selector").action(alert("coucou"));
+</script>
+```

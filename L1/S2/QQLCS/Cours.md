@@ -229,3 +229,131 @@ Sciences de la nature : Faits et propositions
 #### L'analogie
 
 #### L'abduction
+
+...
+
+## Hasard
+
+##### Sérendipité : découverte faite accidentellement sans intention de la faire
+
+Exemple : Velcro ou antibiotique par Mestral
+
+##### Pseudo-sérendipité : Un déconverte faite accidentellement alors que l'on a déjà l'intention de résoudre le problème correspondant
+
+Exemple : Vulcanisation pour rendre le caoutchouc insensible
+
+Smemmelweis a eu un collège mort sans faire exprès a cause d'une coupure et il a créé le lavage de main
+
+**Semmelweis est mort dans la misère car il n'arrivait pas à communiquer, il était impulsif et arrogant**
+
+Trop du cadre théorique aussi
+
+## Science normale
+
+**Paradigme** : Ensemble des théories des manières de poser un problème et des techniqes permettant dele résoudre, que partagent un groupe de chercheurs sur un même sujet
+
+ex : paradigme de la relativité d'einstein
+
+**Enigme** : Problème que l'on doit résoudre grâce à un paradigme
+
+**Anomalie** : Absence de paradigme
+
+**Crise** : Trop d'anomalies => Changer le paradigme
+
+## Science révolutionnaire
+
+C'est ce qui fait l'origine des paradigmes
+
+Changement de paradigme => Lavoisier
+
+### Avant lavoisier : théorie des éléments principes
+
+Première anomalie : Les métaux calcinés gagnent de la masse
+
+### Lavoisier démonte la théorie
+
+Démontre que ça n'existe pas la phlogistique
+
+Théorie de Semmelweis ne fut donc pas reçue et n'entrait pas dans le paradigme dominant => Le vrai ne s'impose pas de lui-même
+
+L'existence d'unparadigme puissant est un frein dans l'acceptation des théories
+
+Antisepsie de Lister entrait dans le paradgme de pasteur donc la théorie fut largement acceptée
+
+##### Qu'est-ce qu'un paadigme scientifique selon Kuhn
+
+Définir la sérendipité avec un exemple et la pseudosérendpitié
+
+# Les controverses scientifiques
+
+____
+
+## Définition
+
+Division persistante et publique de plusieurs membres d'une communautré scietifique, coalisés ou non qui soutiennent des arguments contradictoires dans l'interprétation  d'un phénomène donné
+
+## Cadres nécessaires
+
+Journaux officieux et officiels
+
+## Exemple de controverse
+
+Rayons N Blondlot: Voir cours PDF + 
+
+Polarisation rayons X = N
+
+Pleins d'articles entre 1903 et 1906 mais des sceintfiques n'arrivaient pas à reproduire ces rayons
+
+Mood n'y arrivait pas de faire la visite du labo de blondlot et Wood a enlevé un prisme qui était dans son labo etles rayons N n'étaient plus là et il y a eu scandale. Wood en parla dans Nature en 1904
+
+=> Blondlot était-il malhonnête ? Non, il a juste eu un biais de confirmation
+
+Conséquences de cette controverse : => Plus de précautions dans les expérimentations pour limiter les biais
+
+Controverse Rayons N : 1 an
+
+
+
+**Comment se clôt une controverse ?**
+
+Rationaliste => Apport de preuves incontestables
+
+Relativiste => Cause sociale
+
+
+
+Controverses célèbres
+
+=> 16e siècle : Géocentrisme
+
+=> 19e Créationnisme / génération spontanée
+
+=> 20e tectonique des plaques / mémoire de l'eau / fusion froide
+
+
+
+Génération spontanée : plusieurs siècles
+
+Galilée : communauté scientifique
+
+Argument contradictoire : Terre au centre ou pas
+
+phénomène à expliquer : fonctionnement du cosmos
+
+Forum officiel : livres publiés, démonstrations publiques
+
+Forum officieux : Lettres +  tribunaux
+
+
+
+## Questions :
+
+* Notiond e controverse scietnfiiques
+
+* 3 controverses scientifiques célbres
+
+* Dans quels cadres se développement les controverses scientifiques
+
+
+
+# Controverse

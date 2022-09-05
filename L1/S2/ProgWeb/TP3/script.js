@@ -33,27 +33,30 @@ function w_afficher_tab(tab)
 	}
 }
 
-function conversion()
-{
-	var a_conv = document.getElementById("input").value;
-	var unit_fin = document.getElementById("unite").value;
-	if(unit_fin == "pouce")
+
+$(document).ready(function(){
+	function conversion()
 	{
-		a_conv = a_conv/2.54 + " pouces";
+		var a_conv = document.getElementById("input").value;
+		var unit_fin = document.getElementById("unite").value;
+		if(unit_fin == "pouce")
+		{
+			a_conv = a_conv/2.54 + " pouces";
+		}
+		else if (unit_fin == "cm")
+		{
+			a_conv = a_conv*2.54 + " cm";	
+		}
+		else if (unit_fin == "lb")
+		{
+			a_conv = a_conv/454 + " lbs";
+		}
+		else if (unit_fin == "gramme")
+		{
+			a_conv = a_conv*454 + " grammes";
+		}
+		else{alert("Erreur");}
+		$("#final").text(a_conv);
 	}
-	else if (unit_fin == "cm")
-	{
-		a_conv = a_conv*2.54 + " cm";	
-	}
-	else if (unit_fin == "lb")
-	{
-		a_conv = a_conv/454 + " lbs";
-	}
-	else if (unit_fin == "gramme")
-	{
-		a_conv = a_conv*454 + " grammes";
-	}
-	else{alert("Erreur");}
-	var paragraphe = document.getElementById("final");
-	paragraphe.innerHTML += a_conv;
-}
+	$("#start").click(conversion);
+});

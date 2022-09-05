@@ -1,0 +1,14 @@
+image {
+	position: relative;
+}
+.description{
+	display: none;
+	position: absolute;
+	bottom: 10%;
+	left:0;
+	padding: 10px;
+	font-family: sans-serif;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.75;
+}
