@@ -98,6 +98,7 @@ Supposons que nous ayons un module de spécification BASE où figure des boolée
 * suppression(insertion(e,x),y) : si x==y alors e1, sinon insertion(suppression(e1,y),x)
 
 * minimum(insertion(e,x)) = si vide(e1) alors x sinon
+  
                              si x < minmum(e1) alors x sinon minimum(e1) 
   
       
