@@ -23,5 +23,3 @@
 (P v Q => R v S) AND (R v S => P v Q)
 
 (NON(P v Q => NON(R v S))) AND (NON(R v S => NON(P v Q)))
-
-NON(NON)
