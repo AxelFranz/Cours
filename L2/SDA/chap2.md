@@ -1,25 +1,53 @@
-# 2.  Programmation
+# Spécifications des files.
 
-#### 2.1 Utilisation de types prédéfinis (bool,nat,rat,reel,car,... : base.h)
+Une file est un conteneur d'objets que l'on manipule avec 3 opérations fondamentales
 
-#### 2.2 Renommage des types de base
+* Ajouter un objet en queue de file (adjq)
 
-#### 2.3 Structure de données
+* Supprimer un objet en tête de file (supt)
 
-#### 2.4 Prog fonctionnelle
+* accéder à l'objet en tête de file (tete)
 
-#### 2.5 Rappels sur les pointeurs
 
-Pour réaliser un passage par adresse
 
-* Soit avec t x et en paramètre &x 
+FILE0(TRIV) étend BASE
 
-* Soit avec t* x et en paramètre x
+Sorte: File
 
-Allocation dynamique:
+Opérations : 
 
-ex : int* p = malloc(sizeof(int)
+Filenouv -> File
 
-\#define sizeof(t) ((Nat sizeof(t))
+adjq : File S -> File
 
-\#define malloc(t) ((t*)malloc(sizeof(t)))
+supt : File -> File
+
+tete : File -> S
+
+vide : File -> Bool
+
+lgr : File -> Nat
+
+Préconditions : f : File; x : S
+
+* pre : supt(f) et tete (f) : non vide (f)
+
+
+
+Axiomes : f: File ; x : S
+
+vide(filenouv) = Vrai
+
+lgr(filenouv) = 0
+
+vide(adjq(f,x))=faux
+
+lgr(adjq(f,x))=1+lgr(f)
+
+tete(adjq(f,x)) = si vide (f) alors x
+
+                            sinon tete(f) 
+
+suppt(addjq(f,x))=si vide(f) alors filenouv
+
+                                sinon adjq(supt(f),x)
