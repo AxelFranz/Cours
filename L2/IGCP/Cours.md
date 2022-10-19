@@ -41,8 +41,20 @@ Avec $\Sigma$ = {a,b,c} donnez les expressions rationnelles représentatnt les l
 
 * langage des mots finissant par a : $\Sigma^*.a$
 
-* langagae des mots ne contenant pas ab $\Sigma^*\backslash ab $
+* langagae des mots ne contenant pas ab $(b \lor c)^*(aa^*c(b\lor c)^*)^*a$
 
 * autant b,c puis a puis aa... puis c 
 
-### 
+## 3.1 Automate fini déterministre
+
+M = (K, Sigma, delta, s, F) où
+
+* K : ensemble fini où les éléments sont appelés états
+
+* Sigma : Alphabet
+
+* s c- K état initial
+
+* F c K ensemble des états finaux
+
+* delta : K c Z -> K fonction de transition
