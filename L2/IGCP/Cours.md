@@ -45,7 +45,7 @@ Avec $\Sigma$ = {a,b,c} donnez les expressions rationnelles représentatnt les l
 
 * autant b,c puis a puis aa... puis c 
 
-## 3.1 Automate fini déterministre
+## 3.1 Automate fini déterministe
 
 M = (K, Sigma, delta, s, F) où
 
@@ -58,3 +58,41 @@ M = (K, Sigma, delta, s, F) où
 * F c K ensemble des états finaux
 
 * delta : K c Z -> K fonction de transition
+
+
+
+### ? Automate fini non déterministe
+
+Intuitivement, on dira qu'un mot est reconnu s'il existe un chemin partant de s jusqu'à un état final (au moins 1) et il est refusé s'il n'en existe aucun.
+
+**Formalisation** : On remplace la fonction de transition $\delta$ par une relation de transition $\triangle$ 
+
+$\triangle(q,\alpha,p)$ signifie que l'on peut passer de l'état q à l'état p en lisant $\alpha$
+
+si $\alpha$ = e, $\triangle(q,e,p)$ signifie que l'on peut passer spontanément de q à p.  Cette transition s'appelle une E-transition.
+
+Avec l'exemple précédent, l'automate N est défini par 
+
+K = {s,1,2} , $\Sigma$ = {a,b}
+
+$\triangle$ = {(s,a,1),(1,b,s),(1,b,2)
+
+
+
+On note L(M), l'ensemble de tous les mots acceptés par l'automate M
+
+
+
+(q0,bab,q1)
+
+(q1,ab,q3)
+
+(q3,b,q4)
+
+bab est accepté car il est en relation 
+
+
+
+La classe des langages acceptés par les automates déterministes est incluse dans celle acceptée par les automates non déteministres.
+
+La réciproque est vraie et on a une preuve constructive

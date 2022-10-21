@@ -12,6 +12,17 @@ rech2(l,x) Liste S -> Liste: liste commençant à la première occurence d'un é
 	- rech2(listenouv,x) = listenouv
 	- rech2(adjt(l,x),y) = si x == y adjt(l,x) sinon rech2(l,y)
 
+_[_] : Liste -> Nat -> S : Renvoie le ième élément 
+	- listenouv[x] =  NULL;
+	- adjt(l,x)[y] = if x == y then 0 else 1+l[y]
+
+lid : Liste -> Nat -> Liste : Sous liste déboutant au ième élément
+	- lid(listenouv,x) = listenouv
+	- lid(adjt(l,x),i-1) = if i == 0 then adjt(l,x) else lid(l,i-1)
+
+sup : Liste-> Nat -> Liste : Insère à la ième position
+	- lid(listenouv, x,y) =  
+
 */
 
 #include "/home/axel/Cours/L2/SDA/base.h"
@@ -58,6 +69,67 @@ Liste suppression_tete(Liste l){
 	Liste l2 = l->s;
 	FREE(l);
 	return l2;
+}
+
+Liste sup1(Liste l, int s){
+	if(l == NULL)
+		return l;
+	if(l->v == s){
+		return l->s;
+	}else{
+		return sup1(l->s,s);
+	}
+}
+
+Liste chg1(Liste l, int s1, int s2){
+	if(l==NULL)
+		return NULL;
+	if(l->v == s1){
+		l->v == s2;
+		return l;
+	} else {
+		l->s = chg1(l->s,s1,s2);
+		return l;
+	}
+}
+
+int rech1(Liste l, S x){
+	int i = 0;
+	while(!est_vide(l)){
+		if(l->v==x){
+			return i;
+		}
+		i++;
+		l=l->s;
+	}
+	return -1;
+}
+
+Liste rech2(Liste l, S x){
+	while(l != NULL){
+		if(l->v == x)
+			return l;
+		l = l->s;
+	}
+	return l;
+}
+
+S acces(Liste l, int i){
+	int i2=0;
+	while(i2 != i){
+		l = l->s;
+		i2++;
+	}
+	return l->v;
+}
+
+Liste lid(Liste l, int i){
+	int i2=0;
+	while(i2 != i){
+		l = l->s;
+		i2++;
+	}
+	return l;
 }
 
 int main(){
