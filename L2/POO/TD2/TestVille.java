@@ -26,6 +26,10 @@ public class TestVille {
          c1.getNom() + " : " + c1.categorie());
    System.out.println();
    */
+  
+  Ville a = new Ville("Axel",1549);
+  Capitale t = new Capitale("Tokyo","Japon");
+  System.out.println(a.categorie());
+  System.out.println(t.categorie());
   }
-  Ville a = new Ville("Axel");
 }
