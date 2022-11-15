@@ -7,5 +7,6 @@ public class Test{
 		System.out.println(s2.sommeAuRangN(2));
 		System.out.println(s2.valeurAuRangN(2));
 		System.out.println(s1.calculRang(10));
+		System.out.println(s2.calculRang(25));
 	}
 }
