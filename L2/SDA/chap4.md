@@ -6,7 +6,7 @@
 
 Recherche dans une liste tirée de n >= éléments de sorte S, muni de l'ordre <=
 
-La lsite est supposée implantée de manière contigue
+La liste est supposée implantée de manière contigue
 
 ```c
 Nat rech(Listet l, S z){ // A
@@ -75,8 +75,19 @@ Ne pas trouver z dans l, nécessite z comparaisons
 
 Moyenne : complexité en moyenne d'une recherche positive est de n+1/2
 
-## Ordre de grandeur
+#### 4. Optimalité.
 
+La compléxité optimale de la classe $C$ est la borne inférieure des complexité pour une donnée de taille $x$, dans le meilleure, le pire des cas ou en moyenne.
 
+Exemple : P déterminer le minimum de n nombres en utilisant des opérations de type comparaison d'éléments.
+On peut affirmer que chaque élément doit être comparé à un autre donc 2 à 2
+M_c,opt(n)>= [n/2]
+On connaît un algo de parcours séquentiel qui effectue n-1 comparaisons d'où [n/2] <= M_c,opt <= n-1
+
+Pour des opérateurs fondamentales de type comparaison voir test, on peut utiliser une techque d'arbre de décision binaire pour borner la complexité optimale.
+
+=> Partie sur les arbres binaires que je n'ai pas écrite.
+
+Un arbre binaire de la classe C de ces algos a au moins 2n-1 comparaisons donc noeuds. Pour déterminer un algo optimal, il faut minimiser la longueur d ela branche la plus longue d'un arbre à 2n-1 noeuds
 
 
