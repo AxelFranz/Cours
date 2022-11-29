@@ -59,8 +59,6 @@ M = (K, Sigma, delta, s, F) où
 
 * delta : K c Z -> K fonction de transition
 
-
-
 ### ? Automate fini non déterministe
 
 Intuitivement, on dira qu'un mot est reconnu s'il existe un chemin partant de s jusqu'à un état final (au moins 1) et il est refusé s'il n'en existe aucun.
@@ -77,11 +75,7 @@ K = {s,1,2} , $\Sigma$ = {a,b}
 
 $\triangle$ = {(s,a,1),(1,b,s),(1,b,2)
 
-
-
 On note L(M), l'ensemble de tous les mots acceptés par l'automate M
-
-
 
 (q0,bab,q1)
 
@@ -91,8 +85,23 @@ On note L(M), l'ensemble de tous les mots acceptés par l'automate M
 
 bab est accepté car il est en relation 
 
-
-
 La classe des langages acceptés par les automates déterministes est incluse dans celle acceptée par les automates non déteministres.
 
 La réciproque est vraie et on a une preuve constructive
+
+M' est un automata déterministe par construction. On montreque M et M' acceptent le même langage:
+
+### 3.3 Liens avec les expressions rationnelles
+
+On peut montrer que 
+
+1) Les langages réduits a un mot d'une lettre sont reconnaissables par un automata fini
+2) Les classes des langages acceptés par les AFD sont stables par union, concaténation et étoile de Kleene.
+
+**Donc par définition des langages rationnels, la classe des langages est incluse dans celle des langages acceptés par AFD**
+
+On peut montrer de manière constructive que la récipruq est vraie.
+
+Pour tout AFG M, on sait construire une ER corrspondant à L(M).
+
+La classe des langages rationnels est égale à celle des langages acceptés par un automate fini. 

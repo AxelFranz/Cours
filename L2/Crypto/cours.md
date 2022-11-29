@@ -13,5 +13,3 @@ k est inversible modulo n ssi k et n premiers entre eux. Il y a donc $\phi$(n) i
 
 
 k^phi(n)=1
-
-
