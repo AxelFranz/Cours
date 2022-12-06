@@ -23,3 +23,5 @@ Cette approche se fait sous deux angles :
 - Apprécier sa capacité à assurer le règlement de ses dettes à l'échéance. On parle de solvabilité et de necessité de disposer d'un moyen financier stable
 
 Il ressort de cette analyse que les différents acteurs s'intéressant à la santé de l'entreprise auront des objectifs et des intérêts divergents.
+
+
