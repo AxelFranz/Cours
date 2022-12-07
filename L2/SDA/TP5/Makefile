@@ -6,5 +6,5 @@ ex1 : test.o ListeDouble.o
 	gcc -g $(INCFLAGS) -c $< -o $@ 
 
 clean:
-	rm *.o xListe
+	rm *.o ex1 
 	
