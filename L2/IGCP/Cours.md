@@ -105,3 +105,16 @@ On peut montrer de manière constructive que la récipruq est vraie.
 Pour tout AFG M, on sait construire une ER corrspondant à L(M).
 
 La classe des langages rationnels est égale à celle des langages acceptés par un automate fini. 
+
+## ????? Classes de problèmes
+1) Classes de complexité
+Classe P
+
+Définition : Une MT est dite polynomiale bornée s'il existe un polynome P tel que pour tout autre w, il n'existe pas qu'une config c telle que ?????? càd tout calcukl avec w en entrée est de longueur P(|w|)
+
+Un langage est di polynomialement décidable s'il existe une MT polynomiale bornée qui le décide. On note P leur classe
+Théorème : Il existe des problèmes polynomiaux déciables.
+Il existe des problèmes polynomiaux décidables mais non polynomiaux décidables
+=> Existence d'un chemin dans un graphe
+
+
