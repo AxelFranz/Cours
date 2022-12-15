@@ -117,4 +117,19 @@ Théorème : Il existe des problèmes polynomiaux déciables.
 Il existe des problèmes polynomiaux décidables mais non polynomiaux décidables
 => Existence d'un chemin dans un graphe
 
+=> Graphe hamiltonien : S'il existe un cycle passant par chaque sommet une et une seule fois. On ne sait pas si c'est dans P.
+
+=> On se donne une FNC. Est-elle satisfaisable ?
+
+
+Classe NP
+Définition : On dit qu'une MT non déterministe est polynomiale bornée s'il existe P polynomiale tel que azdvuefzgretbrhyu-((e'zt 
+
+Si on a une MT non déterministe polynomiale bornée 
+1) On a une structure arborescente 
+2) Chaque branche a une longueur < P(|w|)
+3) Un mot est accpté s'il y a un chemin menant à Y 
+
+**Définition** : Un langage est dans NP s'il est décidé par une MT NDPB
+
 
