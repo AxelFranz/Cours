@@ -1,0 +1,1 @@
+view : sliderview(minX, minY, maxX maxY) gridview(nbcol, nbrow, display) pointview(color,size,display)
