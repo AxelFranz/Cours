@@ -1,3 +1,6 @@
 [submodule "L3/GL/TP/TP2"]
 	path = L3/GL/TP/TP2
 	url = https://github.com/AxelFranz/fizzbuzz
+[submodule "L3/GL/TP/TP3"]
+	path = L3/GL/TP/TP3
+	url = https://git.unistra.fr/a.franz/tp3gl
