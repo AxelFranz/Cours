@@ -4,3 +4,6 @@
 [submodule "L3/GL/TP/TP3"]
 	path = L3/GL/TP/TP3
 	url = https://git.unistra.fr/a.franz/tp3gl
+[submodule "franz_axel"]
+	path = franz_axel
+	url = https://git.unistra.fr/l3ase/franz_axel
