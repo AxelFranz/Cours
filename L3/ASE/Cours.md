@@ -120,3 +120,5 @@ if(errno > 0)
 Fonction de bibliothèque -> Indépendantes des threads : strlen
                          -> modifiées pour marcher avec les threads : malloc
                          -> incompatibles avec les threads
+
+Def une condition de concurrence : Lorsque plusieurs acivités accèdent à une variable partagée et que le résultat dépend de l'ordonnancement

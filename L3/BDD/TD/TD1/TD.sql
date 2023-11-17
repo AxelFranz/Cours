@@ -29,6 +29,7 @@ BEGIN
         AND ville=&aNomVille
         AND pays =&aPays
     ;
+
     IF &numVisite=0
     THEN
         DELETE FROM LieuAVisiter
@@ -36,9 +37,9 @@ BEGIN
               AND ville=&aNomVille
               AND pays =&aPays
         ;
-        :message='ok';
+        message:='ok';
     ELSE
-        :message='Impossible';
+        message:='Impossible';
     ENDIF;
     DMBSOUTPUT.PUT_LINE(message);
 END;
@@ -54,20 +55,49 @@ BEGIN
     SET nbPlaceDisponible=0
     WHERE dateDepart - sysdate < &nbDay;
     IF SQL%NOTFOUND THEN
-        :message='Aucune ligne modifiée';
+        message:='Aucune ligne modifiée';
     ELSE
-        :n=SQL%ROWCOUNT
-        :message=To_char(n) || ' circuits modifés';
+        n:=SQL%ROWCOUNT
+        message:=To_char(n) || ' circuits modifés';
     ENDIF;
     DBMSOUTPUT.PUT_LINE(&message);
 END;
 
-/* QUESTION 4 */
-CURSOR Etape_cur IS
-    SELECT * 
-    FROM Etape
-    WHERE ordre=1
-etape
-UPDATE Circuit
-SET villeDepart=Etape.ville
-WHERE Etape.identifiant=Circuit.identifiant
+/* Question 5*/
+
+CREATE OR REPLACE FUNCTION Prix(numCircuit INTEGER) RETURN INTEGER
+IS
+DECLARE
+    iPrixIns INTEGER;
+    iPrixEt INTEGER;
+BEGIN
+
+    SELECT prixInscription INTO iPrixIns
+    FROM Circuit
+    WHERE identifiant=&numCircuit
+    ;
+
+    SELECT SUM(L.prix) INTO iPrixEt
+    FROM LieuAVisiter L, Etape E
+    WHERE E.identifiant=numCircuit 
+            AND E.nomLieu=L.nomLieu 
+        AND E.ville=L.ville
+        AND E.pays=L.pays
+    ;
+    iPrixIns:=iPrixIns+iPrixEt;
+    RETURN iPrixIns;
+END;
+
+/* QUESTION 9 */
+
+SELECT
+FROM
+WHEER
+ORBER BY ASC
+DELETE FROM Etape
+WHERE
+;
+UPDATE
+SET
+WHERE
+;
