@@ -47,3 +47,6 @@ output dep : W(S1) ^ W(S2) = 0
 => fonctionnelle + avec équilibrage = inter-processus
 => régulière = threads  
 
+# MPI
+
+Voir MPI1.c
