@@ -177,7 +177,7 @@ Projection parallèles selon que la direction de projecion et la normale au plan
 - Projection cavalière : 2 axes restent perpendiculaires et conservent leur longueur
 - Projection cabaret : 2 axes restent perpendiculaire et la longueur du 3e axe est divisée par 2 ou 3
 
-Projection perspectives => \
+Projection perspectives => 
 $
 T = \begin{matrix} 
 1 & 0 & 0 & 0 \\ 
@@ -207,3 +207,24 @@ $\vec{OP}' = \vec{OP} + \lambda\vec{CP}$ d'où OP'=(x,y,0,xz+1)
 ## 3. Droites dans l'espce
 
 ### Position relative d'une droite et d'un plan
+
+
+# 3. Géométrie algorithmique
+
+## 1. Polygone
+
+Soit P un Polygone (simple ou non)
+Soit D une droite ne passant pas par un sommet de P 
+- Soit D ne coupe pas P
+- Soit D coupe P en un nombre pair de points distincts ordonnées sur D et les segments entre les points alterne entre int et ext
+
+## 3. Aire d'un polygone
+
+Tout polyogne convexe peut être découpé en triangulé en éventail à partir de n'importe quel sommet  
+
+Observons le calcul pour une polygone non convexe : ca l'air de marcher
+Observons le calcul de l'iare des triangles à partir de n'importe quel sommet
+Observons si la méthode se généralise : oui
+
+Généralisation : 
+AireP = 1/2*sommeàn-1(xiyi+1-yixi+1)
